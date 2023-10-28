@@ -1,0 +1,38 @@
+-> Dining List
+- inspired by Zomato
+- add the cross button to remove the item easily
+- for half and full plate use checkbox
+
+
+-> Your Details Section (Modal or Navigation)
+- Customer Full Name
+- Email (for emailing the bill slip)
+- Mobile No. (Optional) - (for sending the offers and coupon codes)
+
+
+-> Ask the customers on which table they are? (Modal, Accordion or Navigation)
+- show the tables icons as displaying 1, 2, 3..., similar in a way as we see in BookMyShow App while booking the movie ticket.
+- hide the tables that are already occupied.
+
+
+-> Input field for customer message to the cook and the waiter
+
+
+-> Coupon field
+
+
+-> Tip (Keep it in checkbox)
+
+-> Support the App Developer (Optional)
+
+
+-> Summary of the bill
+- Subtotal
+- Taxes
+- Tip
+- Supporting App Developer
+- Coupon Discount
+- Total
+
+
+-> Cancellation Policy

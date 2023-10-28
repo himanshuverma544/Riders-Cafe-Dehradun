@@ -1,0 +1,10 @@
+- Left
+-- address
+-- phone number
+
+- Center
+-- copyright
+-- developer details
+
+- Right
+- social links

@@ -1,0 +1,26 @@
+-> Banner (Textual)
+
+-> List View for all the orders
+
+-> Content in the List
+
+- Left
+-- Icon
+-- Order ID
+-- Time and then the Date of placing the order
+-- Table Number
+
+- Right
+-- Status of the order (Active, Cancelled or Completed)
+-- Token Number
+
+- Bottom
+-- Dinning List items
+
+- Bottom Left
+-- Total Price
+
+- Bottom Right
+-- Reorder button
+
+* Take further inspiration from Zomato

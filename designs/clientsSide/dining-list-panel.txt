@@ -1,0 +1,9 @@
+- Left
+-- icon
+-- No. of items
+
+
+- Right
+- price
+- button or label which will take to the dining list page
+- button to discard the dining list

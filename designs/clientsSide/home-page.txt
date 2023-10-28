@@ -1,0 +1,19 @@
+-> Banner (Restaurant Image and Text)
+
+-> Categories blocks with the name and images
+
+
+-> Food Type Blocks
+
+
+-> Most Popular
+- One or two rows showing the top most popular items
+
+
+-> Fresh Arrivals (same as the above one)
+
+
+-> Trending (Optional) (same)
+
+
+-> Google Reviews Widget

@@ -1,0 +1,7 @@
+-> Navbar will be at bottom and it would be sticky
+- Contains
+-- Home
+-- Menu
+-- Your Orders
+-- Authentication
+- Every nav element will contain the icon

@@ -1,0 +1,48 @@
+-> Search
+- Typewriter: for showing items
+-- it will show as per the filter
+
+
+-> Filter By
+- Categories
+- Food Type (Veg/Egg/Non-Veg)
+- Items in Offers / Discounts Coupons (Optional)
+
+
+-> Sort By
+- Most Popular
+- Fresh Arrivals
+- Trending (Optional)
+- Rating
+- Price
+
+
+-> View Option
+- 2 Items per Row
+- 1 Item per Row
+
+
+-> Items: Make sure that items look clickable even in touch interfaces.
+- Item Image
+-- Recommand the merchant to upload real images
+-- Add option to add images from unsplash
+-- Auto-Slider for multiple images
+-- Keep default image
+- Item Name
+- Price
+- Food Type
+- Rating
+- Add to List Button
+- Read Reviews Button
+
+
+-> Item Modal/Navigate to Item
+- Closing button or back button
+- Item Image
+- Item Name
+- Price
+- Food Type
+- Rating
+- Add to List Button
+- Description
+- Reviews

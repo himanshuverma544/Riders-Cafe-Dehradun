@@ -1,0 +1,47 @@
+-> Message (when order is active)
+- Success Message - Your order has been successfully placed. Please wait for a while till we process your order.
+- Failure Message - Your order has been failed to be placed, due to the <reason>. Please contact restaurant staff to place your order.
+- Any other Message
+
+
+-> Token Number (when order is active)
+- Display the 4 digit generated token number.
+
+
+-> Time of placing the order.
+
+
+-> Cancel Order Button (show when order is active, disable the button after 1 minute and show the required message to the user)
+
+
+-> Login Option (Show only in Active Orders)
+- Display the login button with the Message
+-- Message - In the meantime, feel free to login, this helps you to keep track of your order history, bill invoices and also let you review the items that you had enjoyed since.
+
+
+-> Payment Option (when order is active)
+- if "CASH" or "PAY LATER" is selected by the customer, they can also pay from here using the UPI.
+
+
+-> Order Summary
+- Order ID
+- Order Status (Message)
+- Token Number
+- Time of placing the order
+- Show the Dining List
+- Your Details Section
+- Table Number
+- Customer Message
+- Payment Method
+- Summary of the bill
+-- Subtotal
+-- Taxes
+-- Tip
+-- Supporting App Developer
+-- Coupon Discount
+-- Total
+
+
+-> Reorder Button
+
+* Take further inspiration from Zomato App
