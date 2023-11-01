@@ -1,8 +1,10 @@
--> Message (when order is active)
+-> Message (Order Status will be always on top)
 - Success Message - Your order has been successfully placed. Please wait for a while till we process your order.
 - Failure Message - Your order has been failed to be placed, due to the <reason>. Please contact restaurant staff to place your order.
 - Any other Message
 
+
+-> Table No. (when order is active)
 
 -> Token Number (when order is active)
 - Display the 4 digit generated token number.
@@ -20,19 +22,22 @@
 
 
 -> Payment Option (when order is active)
-- if "CASH" or "PAY LATER" is selected by the customer, they can also pay from here using the UPI.
+- if "Pay after the meal" is selected by the customer, they can also pay from here using the UPI.
 
 
--> Order Summary
-- Order ID
-- Order Status (Message)
-- Token Number
-- Time of placing the order
-- Show the Dining List
-- Your Details Section
-- Table Number
-- Customer Message
-- Payment Method
+-> Summary
+
+- Order Summary
+-- Order ID
+-- Order Status (Message)
+-- Token Number
+-- Time of placing the order
+-- Show the Dining List
+-- Your Details Section
+-- Table Number
+-- Customer Message
+-- Payment Method
+
 - Summary of the bill
 -- Subtotal
 -- Taxes
