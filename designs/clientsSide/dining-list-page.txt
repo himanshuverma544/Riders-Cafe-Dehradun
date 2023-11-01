@@ -10,12 +10,18 @@
 - Mobile No. (Optional) - (for sending the offers and coupon codes)
 
 
+-> Pack for Home
+- keep the checkbox or toggle button
+- by default keep it false
+- if user makes it true then, hide the table selection feature
+
+
 -> Ask the customers on which table they are? (Modal, Accordion or Navigation)
 - show the tables icons as displaying 1, 2, 3..., similar in a way as we see in BookMyShow App while booking the movie ticket.
 - hide the tables that are already occupied.
 
 
--> Input field for customer message to the cook and the waiter
+-> Input field for customer message to the cook or the waiter
 
 
 -> Coupon field
@@ -36,3 +42,14 @@
 
 
 -> Cancellation Policy
+
+
+-> Place Order Panel
+
+- Left
+-- Payment Method
+
+- Right
+-- Price and the Place Order Button
+
+* It would be sticky at the bottom

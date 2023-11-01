@@ -16,4 +16,7 @@
 -> Trending (Optional) (same)
 
 
+-> Most Reviewed
+
+
 -> Google Reviews Widget

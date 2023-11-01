@@ -46,3 +46,6 @@
 - Add to List Button
 - Description
 - Reviews
+
+
+-> Keep the out of stock items at the bottom with a the label
