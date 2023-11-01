@@ -1,0 +1,29 @@
+-> Order Details
+
+- Your Details Section (E)
+- Order Status (*E)
+- Order ID
+- Token Number
+- Time of placing the order
+
+- Show the Dining List (E)
+-- Merchant have the ability to manage the Dining List
+-- Notify the client when merchant change the dining list and ask for the client to accept the change or not
+-- The merchant need to give a reason to do so.
+-- Manage the payment of money accordingly.
+-- Keep the edit history (so, both the merchant and the client knows that the order has been edited)
+
+- Table Number (*E)
+- Customer Message
+- Payment Method (*E)
+
+- Summary of the bill
+-- Subtotal
+-- Taxes (*E) - Give the ability to add or remove the taxes
+-- Tip
+-- Supporting App Developer
+-- Coupon Discount
+-- Total
+
+
+* For now, only develop the mandatory features editable else manage the rest if time allows.

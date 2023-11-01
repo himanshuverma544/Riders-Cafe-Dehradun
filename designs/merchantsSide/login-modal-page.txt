@@ -1,0 +1,13 @@
+-> Profile Picture, name and email (Give user the ability to update the profile picture)
+
+-> Manage Coupons
+
+-> Manage Taxes
+
+-> View Analytics
+
+-> Settings
+- Accept payment first (Optional)
+- Option to remove the feature of 'Pack for Home'
+- Option to remove the feature of selecting table (Optional)
+- Total No. of Tables

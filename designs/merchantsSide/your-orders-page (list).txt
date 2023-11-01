@@ -1,0 +1,48 @@
+-> Top (Mobile Devices)
+
+- Expandable Search - Search using order ID, customer name, item
+- Add Order button - to explicitly add the order
+
+
+-> Top (Desktops)
+
+- Search Bar - Search using order ID, customer name, item
+- Add Order Button
+
+
+-> Show orders in List
+
+- List Content
+
+-- Left
+--- user profile picture | default picture: (keep initial letters of first name and last name - Optional)
+--- name of the user
+--- time of placing the order
+--- table no.
+--- token no.
+
+-- Right
+--- edit icon button
+--- order status label or icon
+--- order status (that can be changed by the merchant as per requirement)
+
+-- Bottom
+--- dining list 
+
+- Bottom Left
+--- total price
+
+- Bottom Right
+--- payment status (Merchant will have ability to change)
+
+- Bottom
+- View Order in Detail Button and Cancel Order Button (Confirm with a Reason, and the reason will shown to the client)
+-- Manage the money as per the scenario
+
+
+-> Special Features
+
+- keep the latest orders at top
+- keep separate windows for each status of order (usually, it is most useful for Desktops)
+-- give merchant the option to view orders status wise or latest orders wise
+- when new order arrives, give merchant the option to accept and reject the order at the Right side, as soon as merchant accepts show the  order status in select field.

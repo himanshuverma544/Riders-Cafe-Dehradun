@@ -1,0 +1,38 @@
+-> Search
+- Typewriter: for showing items
+-- it will show as per the filter
+
+
+-> Filter By
+- Categories
+- Food Type (Veg/Egg/Non-Veg)
+- Items in Offers / Discounts Coupons (Optional)
+
+
+-> Sort By
+- Most Popular
+- Fresh Arrivals
+- Trending (Optional)
+- Rating
+- Price
+
+
+-> View Option
+- 2 Items per Row
+- 1 Item per Row
+
+
+-> Menu will look almost similar for the admin too, what's here for the admin is that it have the ability to do CRUD operations on items.
+
+- there will be big plus button to add the items
+- there will be edit and delete button on the item
+
+-> On clicking the above following buttons a modal will open or it will navigate to to the page where the admin can put all the required details of the item.
+
+- Item Images
+- Item Name
+- Price
+- Food Type
+- Description
+- Category: Option to add and select the category, just right at the place
+- In Stock or not
