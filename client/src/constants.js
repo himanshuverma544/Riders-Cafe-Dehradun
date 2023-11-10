@@ -1,18 +1,32 @@
-export const HOME = {
+const HOME = {
   title: "Home",
   path: "/"
-};
+}
 
-export const MENU = {
+const MENU = {
   title: "Menu",
   path: "/menu"
 };
 
-export const YOUR_ORDERS = {
-  title: "Your Orders",
+const YOUR_ORDERS = {
+  title: "Orders",
   path: "/your-orders"
 };
 
-export const PAGE_404 = {
+const AUTHENTICATION = {
+  title: "Sign In",
+  path: "/authentication"
+};
+
+const PAGE_404 = {
   path: "*"
 };
+
+
+export {
+  HOME,
+  MENU,
+  YOUR_ORDERS,
+  AUTHENTICATION,
+  PAGE_404
+}
