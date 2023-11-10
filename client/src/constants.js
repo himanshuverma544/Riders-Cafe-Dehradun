@@ -8,9 +8,9 @@ const MENU = {
   path: "/menu"
 };
 
-const YOUR_ORDERS = {
+const ORDERS = {
   title: "Orders",
-  path: "/your-orders"
+  path: "/orders"
 };
 
 const AUTHENTICATION = {
@@ -26,7 +26,7 @@ const PAGE_404 = {
 export {
   HOME,
   MENU,
-  YOUR_ORDERS,
+  ORDERS,
   AUTHENTICATION,
   PAGE_404
 }
