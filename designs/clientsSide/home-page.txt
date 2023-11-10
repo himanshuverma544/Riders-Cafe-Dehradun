@@ -1,5 +1,6 @@
 -> Banner (Restaurant Image and Text)
 
+
 -> Categories blocks with the name and images
 
 
