@@ -4,7 +4,7 @@
 
 
 @layer utilities {
-  .max-w-inherit {
+  .w-max-inherit {
     max-width: inherit !important;
   }
 }
@@ -15,11 +15,11 @@
   text-rendering: optimizeLegibility;
 }
 
-#root {
-  text-align: center;
-}
-
 body {
   min-width: 320px;
   min-height: 100vh;
+}
+
+#root {
+  text-align: center;
 }
