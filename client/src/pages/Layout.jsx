@@ -1,55 +1,77 @@
 import { Link, Outlet } from "react-router-dom";
 
-import { Container } from "@mui/material";
+import Container from "@mui/material/Container";
 import Grid from "@mui/material/Unstable_Grid2";
+import Box from "@mui/material/Box";
+import AppBar from "@mui/material/AppBar";
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
 
-import { HomeOutlined, MenuBookOutlined, RestaurantMenuOutlined, PersonOutline } from '@mui/icons-material';
+import HomeOutlined from '@mui/icons-material/HomeOutlined';
+import MenuBookOutlined from '@mui/icons-material/MenuBookOutlined';
+import RestaurantMenuOutlined from '@mui/icons-material/RestaurantMenuOutlined';
+import PersonOutline from '@mui/icons-material/PersonOutline';
 
 import NavItem from "../components/NavItem";
-import { HOME, MENU, YOUR_ORDERS, AUTHENTICATION } from "../constants";
+import { HOME, MENU, ORDERS, AUTHENTICATION } from "../constants";
+
+import { faker } from 'https://cdn.skypack.dev/@faker-js/faker';
 
 
 const Layout = () => {
 
   return (
     <>
-      <Container maxWidth={false} disableGutters>
+      <Container maxWidth={false} className="bg-blue-800" disableGutters>
 
-        <Container className="max-w-inherit">
-          <header>
-            <div className="restaurant-brand">
-              <Link href="/"><img src="/logo.png" alt="Restaurant Brand Logo"/></Link>
-              <h1>Brand Name</h1>
-            </div>
-            <nav>
-              <ul className="flex justify-evenly py-5">
-                <NavItem
-                  to={HOME.path}
-                  icon={<HomeOutlined/>}
-                  title={HOME.title}
-                />
-
-                <NavItem
-                  to={MENU.path}
-                  icon={<MenuBookOutlined/>}
-                  title={MENU.title}
-                />
-
-                <NavItem
-                  to={YOUR_ORDERS.path}
-                  icon={<RestaurantMenuOutlined/>}
-                  title={YOUR_ORDERS.title}
-                />
-
-                <NavItem
-                  to={AUTHENTICATION.path}
-                  icon={<PersonOutline/>}
-                  title={AUTHENTICATION.title}
-                />
-              </ul>
-            </nav>
-          </header>
-        </Container>
+        <Grid container className="w-max-inherit">
+          <AppBar className="flex justify-center" position="fixed">
+            <Toolbar>
+              <Grid lg={4}>
+                <Box className="restaurant-brand flex">
+                  <Link href="/">
+                    <img className="max-w-[2.1rem] h-auto" 
+                      src="https://avatars.githubusercontent.com/u/22081424"
+                      alt="Restaurant-Brand-Logo-Image"
+                    />
+                  </Link>    
+                  <Typography 
+                    variant="h1"
+                    sx={{ fontSize: "2rem", marginLeft: "1rem" }}
+                  >
+                    Brand Name
+                  </Typography>
+                </Box>
+              </Grid>
+              <Grid lg>
+                <nav>
+                  <ul className="flex justify-evenly py-5">
+                    <NavItem
+                      path={HOME.path}
+                      icon={<HomeOutlined/>}
+                      title={HOME.title}
+                    />
+                    <NavItem
+                      path={MENU.path}
+                      icon={<MenuBookOutlined/>}
+                      title={MENU.title}
+                    />
+                    <NavItem
+                      path={ORDERS.path}
+                      icon={<RestaurantMenuOutlined/>}
+                      title={ORDERS.title}
+                    />
+                    <NavItem
+                      path={AUTHENTICATION.path}
+                      icon={<PersonOutline/>}
+                      title={AUTHENTICATION.title}
+                    />
+                  </ul>
+                </nav>
+              </Grid>
+            </Toolbar>
+          </AppBar>
+        </Grid>
 
         <Container> 
           <main>
@@ -57,9 +79,10 @@ const Layout = () => {
           </main>
         </Container>
 
+
         <Container>
           <footer>
-
+            
           </footer>
         </Container>
 
