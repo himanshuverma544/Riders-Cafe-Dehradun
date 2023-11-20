@@ -22,30 +22,32 @@ const Layout = () => {
 
   return (
     <>
-      <Container maxWidth={false} className="bg-blue-800" disableGutters>
+      <Container maxWidth={false} disableGutters>
 
         <Grid container className="w-max-inherit">
-          <AppBar className="flex justify-center" position="fixed">
-            <Toolbar>
-              <Grid lg={4}>
-                <Box className="restaurant-brand flex">
-                  <Link href="/">
-                    <img className="max-w-[2.1rem] h-auto" 
-                      src="https://avatars.githubusercontent.com/u/22081424"
-                      alt="Restaurant-Brand-Logo-Image"
-                    />
-                  </Link>    
-                  <Typography 
+          <AppBar position="fixed">
+            <Toolbar disableGutters>
+              <Grid className="restaurant-brand-cont" sm={12} lg={4}>
+                <Link className="restaurant-brand w-fit flex mx-auto" to="/">
+                  <img
+                    className="max-w-[2.1rem] h-auto"
+                    src="https://avatars.githubusercontent.com/u/22081424"
+                    alt="Restaurant-Brand-Logo-Image"
+                  />
+                  <Typography
                     variant="h1"
-                    sx={{ fontSize: "2rem", marginLeft: "1rem" }}
+                    sx={{
+                      fontSize: "2rem",
+                      marginLeft: "1rem"
+                    }}
                   >
                     Brand Name
                   </Typography>
-                </Box>
+                </Link>    
               </Grid>
-              <Grid lg>
+              <Grid className="nav-cont fixed bottom-0 w-full bg-blue-600 lg:static" lg={12}>
                 <nav>
-                  <ul className="flex justify-evenly py-5">
+                  <ul className="flex justify-evenly">
                     <NavItem
                       path={HOME.path}
                       icon={<HomeOutlined/>}
