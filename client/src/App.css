@@ -1,0 +1,9 @@
+.master-cont {
+  display: grid !important;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.main-cont {
+  margin: 1rem 0;
+}
