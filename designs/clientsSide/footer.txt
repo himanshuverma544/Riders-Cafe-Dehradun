@@ -1,10 +1,21 @@
 - Left
+-- brand name and logo
+
+- Center
 -- address
 -- phone number
 
-- Center
--- copyright
--- developer details
-
 - Right
-- social links
+-- opening hours
+
+
+- Bottom
+
+-- Left
+--- developer details
+
+-- Center
+--- copyright 
+
+-- Right
+--- social links
