@@ -5,9 +5,9 @@ import Grid from "@mui/material/Unstable_Grid2";
 import Box from "@mui/material/Box";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
-import Divider from '@mui/material/Divider';
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
+import Divider from '@mui/material/Divider';
 import SvgIcon from '@mui/material/SvgIcon';
 
 import HomeOutlined from '@mui/icons-material/HomeOutlined';
@@ -15,6 +15,7 @@ import MenuBookOutlined from '@mui/icons-material/MenuBookOutlined';
 import RestaurantMenuOutlined from '@mui/icons-material/RestaurantMenuOutlined';
 import PersonOutline from '@mui/icons-material/PersonOutline';
 import CallOutlined from "@mui/icons-material/CallOutlined";
+import EmailOutlined from "@mui/icons-material/EmailOutlined";
 import FmdGoodOutlined from "@mui/icons-material/FmdGoodOutlined";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookOutlined from '@mui/icons-material/FacebookOutlined';
@@ -35,9 +36,9 @@ const Layout = () => {
       <Container className="master-cont" maxWidth={false} disableGutters>
 
         <Grid className="header-cont w-max-inherit" container>
-          <AppBar className="the-header" position="static">
-            <Toolbar className="header-toolbar" disableGutters>
-              <Grid className="restaurant-brand-cont" sm={12} lg={4}>
+          <AppBar className="the-header bg-blue-400" position="static">
+            <Toolbar className="header-toolbar lg:px-[16px]" disableGutters>
+              <Grid className="restaurant-brand-cont flex justify-center" sm={12} lg={4}>
                 <RestaurantBrand
                   logo="https://avatars.githubusercontent.com/u/22081424" 
                   name="Brand Name"
@@ -74,44 +75,45 @@ const Layout = () => {
           </AppBar>
         </Grid>
 
-        <Container className="main-cont" maxWidth={false} disableGutters> 
+        <Container className="main-cont" maxWidth={false}> 
           <main>
             <Outlet/>
           </main>
         </Container>
 
-        <Container className="footer-cont bg-blue-500" maxWidth={false} disableGutters>
-          <footer className="the-footer py-3 mb-12 lg:mb-0">
+        <Container className="footer-cont bg-blue-400" maxWidth={false}>
+          <footer className="the-footer py-3 mb-14 lg:mb-0">
 						<Grid container>
 
-							<Grid className="restaurant-brand flex justify-center bg-green-800" sm={12} md={4}>
-                <RestaurantBrand 
-                  logo="https://avatars.githubusercontent.com/u/22081424" 
-                  name="Brand Name"
-                  variant="h5"
-                />	
-							</Grid>
-
-							<Grid className="contact-us flex flex-col justify-center items-center gap-2 text-center bg-orange-800" sm={12} md={4}>
-								<Typography variant="h5">Contact Us</Typography>
+							<Grid className="restaurant-brand flex flex-col justify-center items-center gap-2 text-center mt-2 md:mt-0" sm={12} md={4}>
+                <Typography variant="h5">Contact Us</Typography>
                 <Box className="contact-number">
-								  <Link component={RouterLink} variant="body1" to="tel:+919410986033" color="#000" underline="none">
-                    <CallOutlined htmlColor="#000"/>
-                    +91 94109 86033
+								  <Link component={RouterLink} variant="body1" to="tel:+919410986033">
+                    <CallOutlined/>
+                    <Box className="ms-1" component="span">+91 94109 86033</Box>
                   </Link>
                 </Box>
-                <Box className="address flex justify-center">
-                  <Link className="flex" component={RouterLink} to="#" color="#000" underline="none">
-                    <FmdGoodOutlined className="location-icon"/>
+                <Box className="contact-email">
+                <Link component={RouterLink} variant="body1" to="mailto:himanshuverma544@gmail.com" target="_blank">
+                    <EmailOutlined/> 
+                    <Box className="ms-1" component="span">himanshuverma544@gmail.com</Box>
+                  </Link>
+                </Box>
+							</Grid>
+
+							<Grid className="contact-us flex flex-col justify-center items-center gap-2 text-center my-5 md:my-0" sm={12} md={4}>
+                <Typography variant="h5">Address</Typography>
+                <Box className="address flex justify-center items-center">
+                  <Link className="w-fit flex" component={RouterLink} to="#" target="_blank">
+                    <FmdGoodOutlined className="location-icon ms-3"/>
                     <Typography variant="body1">
-                      252/9, Model Colony, Araghar,
-                      Dehradun, Uttarakhand, 248001
+                      252/9, Model Colony, Araghar, Dehradun, Uttarakhand, 248001
                     </Typography>
                   </Link>
                 </Box>
 							</Grid>
 
-							<Grid className="opening-hours flex flex-col justify-center items-center gap-2 text-center bg-yellow-700" sm={12} md={4}>
+							<Grid className="opening-hours flex flex-col justify-center items-center gap-2 text-center mb-2 md:mb-0" sm={12} md={4}>
                 <Typography variant="h5">Opening Hours</Typography>
                 <Box className="timing">
                   <Typography variant="body1">
@@ -122,56 +124,52 @@ const Layout = () => {
                 </Box>
 							</Grid>
 
-							<Divider/>
+              <Divider className="the-divider bg-black w-full"/>
 
 							<Grid className="sub-footer grid md:grid-cols-3 text-center" sm={12}>
-                <Box className="developer-details flex flex-col justify-center bg-pink-800">
+                <Box className="developer-details flex flex-col justify-center items-center my-5 md:my-0">
                   <Typography  variant="h6" fontSize="1rem">
                     Meet the Developer 
                   </Typography>
                   <Link
+                    className="w-fit"
                     component={RouterLink}
                     variant="body2" 
                     to="https://linktr.ee/himanshuverma544" 
                     target="_blank"
-                    color="#000"
-                    underline="none"
                   >
                     Himanshu Verma
                   </Link>
                 </Box>
-                <Box className="legal-details flex flex-col justify-center bg-red-700">
+                <Box className="legal-details flex flex-col justify-center items-center ">
                   <Typography variant="body2">
                     © 2023 – {new Date().getFullYear()}
                     <Link
                       component={RouterLink}
                       to="https://linktr.ee/himanshuverma544" 
                       target="_blank"
-                      color="#000"
-                      underline="none"
                     > Himanshu Verma
                     </Link>. 
                     All rights reserved.
                   </Typography>
                   <Link
+                    className="w-fit"
                     component={RouterLink}
                     variant="body2"
                     to="#"
                     target="_blank"
-                    color="#000"
-                    underline="none"
                   >
                     Terms and Conditions
                   </Link>
                 </Box>
-                <Box className="social-links order-first md:order-last flex justify-center items-center gap-3 bg-white">
-                  <Link component={RouterLink} to="https://www.instagram.com" target="_blank" color="#000">
+                <Box className="social-links order-first md:order-last flex justify-center items-center gap-3 mt-2 md:mt-0">
+                  <Link component={RouterLink} to="https://www.instagram.com" target="_blank">
                     <InstagramIcon/>
                   </Link>
-                  <Link component={RouterLink} to="https://www.facebook.com" target="_blank" color="#000">
+                  <Link component={RouterLink} to="https://www.facebook.com" target="_blank">
                     <FacebookOutlined/>
                   </Link>
-                  <Link component={RouterLink} to="https://www.twitter.com" target="_blank" color="#000">
+                  <Link component={RouterLink} to="https://www.twitter.com" target="_blank">
                     <SvgIcon component={XIcon} inheritViewBox/>
                   </Link>
                 </Box>
