@@ -7,3 +7,7 @@
 .main-cont {
   margin: 1rem 0;
 }
+
+.the-divider {
+  margin: 0.75rem 0 0.75rem !important;
+}
