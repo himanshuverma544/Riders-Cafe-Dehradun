@@ -1,0 +1,224 @@
+0. Home Page
+
+i. Here user can see all the below things in the ii.
+
+ii. Here user can go to the items on the basis of:
+- categories
+- food types 
+- most popular
+- fresh arrivals
+- trending
+- most rated
+
+iii. Google Reviews Widget
+
+
+1. Digital Menu
+
+i. categorization (e.g. starters, deserts, chinese etc)
+
+ii. will have filter and sorting
+
+- filter by:
+-- categories
+-- food type (veg/egg/non-veg)
+-- items in offers/discount coupons
+
+- sorting by:
+-- most popular
+-- fresh arrivals
+-- trending (optional)
+-- rating
+-- price
+-- chefs choice
+
+iii. admin has the feature to keep the menu as per their needs
+
+iv. ratings and reviews for each item by user
+
+v. searching the menu (and giving suggestions to users from the menu)
+
+vi. different view options (1 item, 2 items or without a picture for quick view)
+
+vii. show stock or out-of-stock items (admin feature)
+
+
+2. Single page for every menu item
+
+It will contain the following things:
+
+- Item Image
+- Item Name
+- Price
+- Food Type
+- Rating
+- Add to List Button
+- Description
+- Reviews (only the authenticated users who have tried the menu item can only give the review)
+
+
+3. Cart
+
+- cart items list
+- user details section
+- where to eat (home delivery, dining or take away)
+- table no. (will have the ability to detect table no. automatically)
+- user message for the kitchen and waiter
+- coupon field
+- tip (optional)
+- support the app developer (optional)
+- place order button (will proceed user to payment)
+
+
+4. Cart Panel
+
+Will show:
+- no. of items the user added to the cart
+- total price
+- user can discard the cart just from here also
+
+
+5. Payment
+
+- method: UPI - PayTm, Google Pay or Phone Pay
+- admin has the option to take pre-payment and post-payment of the orders
+
+
+6. User Authentication
+
+- by Google
+- by Email
+
+
+7. Orders List
+
+i. shows the orders list made by the user
+
+ii. The following content will be shown to the user in the list item (single order):
+- Icon
+- Order ID
+- Time and then the Date of placing the order
+- Where to eat (Dining, Home Delivery or Take Away)
+- Status of the order (Active, Cancelled or Completed)
+- Token Number
+- Dining List items
+- Total Price
+- Payment Status
+- Reorder Button
+- Cancel Order Button (Shown till 1 minute)
+
+
+8. Order Details Page
+
+i. Summary
+
+a. Order Summary
+
+- Order ID
+- Order Status (Message)
+- Token Number
+- Time of placing the order
+- Show the Dining List
+- Your Details Section
+- Table Number
+- Customer Message
+- Payment Method
+
+b. Summary of the bill
+
+- Subtotal
+- Taxes
+- Tip
+- Supporting App Developer
+- Coupon Discount
+- Total
+
+ii. The user can log in and make payment from here also
+
+iii. The user can cancel the order (within 1 min)
+
+iv. The user can reorder the same order
+
+
+9. Bill PDF Generator
+
+i. The user can download the PDF
+
+ii. Bill and PDF will be sent to the user Email ID
+
+
+9. Coupons Features
+
+
+10. Admin Control:
+
+i. Menu and Menu Items
+
+ii. Taxes
+
+iii. Coupons
+
+iv. Orders
+
+v. Payment Method
+
+vi. Where to eat (Dining, Home Delivery or Take Away)
+
+
+11. Real-time updates and Messaging
+
+i. Order Status
+
+ii. Message Communication between the user and the admin
+
+- will take place when the user will receive the order
+- the user will use it to get the small required items like salt, napkins, water or anything that is required by the user
+
+
+12. Analytics (For Admin)
+
+- earnings (day, weekly, monthly and yearly)
+- popular items
+- most rated item
+- trending items
+
+
+13. Better User Experience and User Interface
+
+- For both the Users and Admin
+
+
+14. Can simply work with the QR code
+
+i. No need to download and install the app
+
+ii. user can install the app if they wish to, from within the app
+ 
+
+15. Will work on any of the devices: Desktop, Tablet and Mobile
+
+18. Custom Domain
+
+16. Additional Required Details
+
+i. Important Details
+- Social Media Links
+- Opening Timing
+- Address
+- Phone No. 
+
+ii. Will be at the footer
+
+
+17. Bonus
+- Favourite List
+- Dark Theme
+
+
+* Terms and Conditions
+
+1. We will make changes and update the app as per our availability of time.
+
+2. We will follow ethical behaviour for both the end-user and client.
+
+3. We will deliver what we had said.
