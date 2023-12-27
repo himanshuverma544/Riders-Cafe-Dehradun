@@ -12,8 +12,6 @@ const RestaurantBrand = ({ name, logo, variant }) => {
         variant={variant} 
         to="/" 
         fontSize="2rem"
-        underline="none"
-        color="#FFF"
       >
         <img
           className="max-w-[2.1rem] h-auto"
