@@ -1,15 +1,15 @@
--> Search
+Top -> Search
 - Typewriter: for showing items
 -- it will show as per the filter
 
 
--> Filter By
+Just Below Top -> Filter By [Select Checkbox]
 - Categories
 - Food Type (Veg/Egg/Non-Veg)
 - Items in Offers / Discounts Coupons (Optional)
 
 
--> Sort By
+Below the Above -> Sort By
 - Most Popular
 - Fresh Arrivals
 - Trending (Optional)
@@ -17,9 +17,10 @@
 - Price
 
 
--> View Option
+Below the Above -> View Option
 - 2 Items per Row
 - 1 Item per Row
+- Quick View (Only Names)
 
 
 -> Items: Make sure that items look clickable even in touch interfaces.
