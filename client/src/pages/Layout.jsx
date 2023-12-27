@@ -21,9 +21,9 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookOutlined from '@mui/icons-material/FacebookOutlined';
 import XIcon from '../assets/icons/XIcon.svg?react';
 
-
 import NavItem from "../components/NavItem";
 import RestaurantBrand from "../components/RestaurantBrand";
+
 import { HOME, MENU, ORDERS, AUTHENTICATION } from "../constants";
 
 import { faker } from 'https://cdn.skypack.dev/@faker-js/faker';
@@ -37,7 +37,7 @@ const Layout = () => {
 
         <Grid className="header-cont w-max-inherit" container>
           <AppBar className="the-header bg-blue-400" position="static">
-            <Toolbar className="header-toolbar lg:px-[16px]" disableGutters>
+            <Toolbar className="header-toolbar lg:px-[24px]" disableGutters>
               <Grid className="restaurant-brand-cont flex justify-center" sm={12} lg={4}>
                 <RestaurantBrand
                   logo="https://avatars.githubusercontent.com/u/22081424" 
@@ -83,8 +83,8 @@ const Layout = () => {
 
         <Container className="footer-cont bg-blue-400" maxWidth={false}>
           <footer className="the-footer py-3 mb-14 lg:mb-0">
-						<Grid container>
 
+						<Grid container>
 							<Grid className="restaurant-brand flex flex-col justify-center items-center gap-2 text-center mt-2 md:mt-0" sm={12} md={4}>
                 <Typography variant="h5">Contact Us</Typography>
                 <Box className="contact-number">
