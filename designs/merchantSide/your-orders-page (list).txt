@@ -44,5 +44,5 @@
 
 - keep the latest orders at top
 - keep separate windows for each status of order (usually, it is most useful for Desktops)
--- give merchant the option to view orders status wise or latest orders wise
-- when new order arrives, give merchant the option to accept and reject the order at the Right side, as soon as merchant accepts show the  order status in select field.
+- give merchant the option to view orders status wise or latest orders wise
+- when new order arrives, give merchant the option to accept and reject the order at the Right side, as soon as merchant accepts show the order status in select field.
