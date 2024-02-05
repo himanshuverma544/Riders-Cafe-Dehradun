@@ -1,0 +1,1 @@
+- DB Schema: https://dbdiagram.io/d/Restaurant-App-65379049ffbf5169f054d915
